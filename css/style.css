@@ -1,0 +1,10 @@
+C:root{
+    --primario: #9c27b0;
+    --primarioOscuro: #89119D;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #fff;
+    --negrp: #000;
+
+    --FuentePrincipal: "Staatliches", sans-serif;
+}
