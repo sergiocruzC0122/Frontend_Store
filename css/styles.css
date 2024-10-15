@@ -1,10 +1,10 @@
-C:root{
+:root{
     --primario: #9c27b0;
     --primarioOscuro: #89119D;
     --secundario: #ffce00;
     --secundarioOscuro: rgb(233,287,2);
     --blanco: #fff;
-    --negrp: #000;
+    --negro: #000;
 
     --FuentePrincipal: "Staatliches", sans-serif;
 }
@@ -37,7 +37,7 @@ a {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .contenedor{
@@ -61,4 +61,15 @@ h2 {
 
 h3 { 
     font-size: 2.4rem;
+}
+
+/**Header **/
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
 }
